@@ -20,6 +20,7 @@ public class Task12Main {
         {
             int minEl = arr[i];
             int minIndexEl = i;
+
             for (int j = i; j < arr.length; j++)
             {
                 if (arr[j] <= minEl)
@@ -28,6 +29,7 @@ public class Task12Main {
                     minIndexEl = j;
                 }
             }
+
             int temp = arr[i];
             arr[i] = minEl;
             arr[minIndexEl] = temp;
