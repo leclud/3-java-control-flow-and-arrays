@@ -14,7 +14,7 @@ public class Task11Main {
             return;
         }
         if (arr.length == 0) {
-
+            return;
         } else {
             int minimum = arr[0];
             int minIndex = 0;
