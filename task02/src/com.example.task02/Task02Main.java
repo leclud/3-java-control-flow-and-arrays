@@ -20,6 +20,7 @@ public class Task02Main {
         } else if (monthNumber>=9 & monthNumber<=11) {
             return "осень";
         }
+
         return"";
     }
 }
